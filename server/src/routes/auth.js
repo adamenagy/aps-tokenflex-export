@@ -75,7 +75,7 @@ router.get("/callback/oauth", (ctx) => {
  * If you need to completely log out fromAPS
  * you will need to implement on the client-side
  * the steps documented in the belowAPS article
- * https://aps.autodesk.com/blog/log-out-aps
+ * https://aps.autodesk.com/blog/log-out-forge
  */
 router.get("/logout", (ctx) => {
   ctx.logout();
