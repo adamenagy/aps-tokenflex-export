@@ -16,7 +16,7 @@
 // UNINTERRUPTED OR ERROR FREE.
 /////////////////////////////////////////////////////////////////////
 
-import "@babel/polyfill";
+import "core-js/stable";
 import Vue from "vue";
 import "./plugins/axios";
 import "./plugins/vuetify";
